@@ -1,5 +1,20 @@
 # 中文论文阅读笔记
 
-这里是我的中文论文阅读笔记，不定时更新。
+记录大语言模型、多模态大模型幻觉缓解与视觉 Transformer 相关论文的中文阅读笔记，持续更新。
 
-其中的绝大多数内容都是关于大模型幻觉抑制方向的论文，这些论文都是发表在CCF-A中的论文，包括但不限于ICLR/AAAI/CVPR等。
+## 论文索引
+
+| 论文 | 核心创新点 | 中文笔记 |
+| --- | --- | --- |
+| [AIR: Adaptive Visual Reinforcements](https://arxiv.org/abs/2602.24041) | 先用原型压缩视觉 token，再以最优传输度量选择并强化与当前隐藏状态一致的图像 patch。 | [PDF](./AIR_2602.24041_zh_CN.pdf) |
+| [ART: Attention Replacement Technique](https://arxiv.org/abs/2604.06393) | 发现浅层均匀注意力会削弱关键信息聚焦，并以局部注意力替换它，无需额外训练。 | [PDF](./ART_zh_CN.pdf) |
+| [CIPHER](https://arxiv.org/abs/2603.10470) | 用扩散模型构造反事实图像，提取视觉诱导幻觉的低秩子空间，并在推理时投影移除该成分。 | [PDF](./CIPHER_zh_CN.pdf) |
+| [GuarantRAG](https://arxiv.org/abs/2604.08046) | 分离参数化推理与检索证据：Contrastive DPO 生成 Refer-Answer，再以 token 级联合解码融合两者。 | [PDF](./GUARANTRAG_zh_CN.pdf) |
+| [HIRE](https://arxiv.org/abs/2603.29405) | 动态定位含幻觉的中间表征，并进行 token 级编辑，以单次推理替代重训练或双路解码。 | [PDF](./HIRE_zh_CN.pdf) |
+| [HulluEdit](https://arxiv.org/abs/2602.22727) | 将隐藏状态正交分解为视觉证据、冲突先验和不确定性子空间，只抑制先验中的幻觉成分。 | [PDF](./HulluEdit_2602.22727_zh_CN.pdf) |
+| [Vision Transformer](https://arxiv.org/abs/2010.11929) | 将图像切分为 patch 序列并直接输入纯 Transformer；大规模预训练后迁移到视觉任务。 | [PDF](./ViT_2010.11929_zh_CN.pdf) |
+| [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | 以多头自注意力构建完全去除循环与卷积的 Transformer 编解码器，实现并行序列建模。 | [PDF](./attention_is_all_you_need.pdf) |
+
+## 说明
+
+创新点依据论文原文摘要与方法描述概括；笔记仅用于个人学习与学术交流，论文版权归原作者及出版方所有。
