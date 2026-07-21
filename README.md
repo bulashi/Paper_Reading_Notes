@@ -11,6 +11,7 @@
 | CIPHER | 用扩散模型构造反事实图像，提取视觉诱导幻觉的低秩子空间，并在推理时投影移除该成分。 | [PDF](./CIPHER_zh_CN.pdf) | [2603.10470](https://arxiv.org/abs/2603.10470) |
 | Causal Route Gating (CRG) | 通过因果干预拆分并量化注意力头中的视觉/文本路由，只对视觉证据被语言先验压制的冲突头门控抑制文本路由。 | [PDF](./CRG_2605.24024_zh_CN.pdf) | [2605.24024](https://arxiv.org/abs/2605.24024) |
 | GuarantRAG | 分离参数化推理与检索证据：Contrastive DPO 生成 Refer-Answer，再以 token 级联合解码融合两者。 | [PDF](./GUARANTRAG_zh_CN.pdf) | [2604.08046](https://arxiv.org/abs/2604.08046) |
+| HAVAE: Hijacking-Aware Visual Attention Enhancement | 以固定劫持词锚定位惰性视觉 token，再筛选抗劫持关键头并选择性增强其对显著视觉内容的关注，无需训练。 | [PDF](./HAVAE_2605.10622_zh_CN.pdf) | [2605.10622](https://arxiv.org/abs/2605.10622) |
 | HIRE | 动态定位含幻觉的中间表征，并进行 token 级编辑，以单次推理替代重训练或双路解码。 | [PDF](./HIRE_zh_CN.pdf) | [2603.29405](https://arxiv.org/abs/2603.29405) |
 | HulluEdit | 将隐藏状态正交分解为视觉证据、冲突先验和不确定性子空间，只抑制先验中的幻觉成分。 | [PDF](./HulluEdit_2602.22727_zh_CN.pdf) | [2602.22727](https://arxiv.org/abs/2602.22727) |
 | Vision Transformer | 将图像切分为 patch 序列并直接输入纯 Transformer；大规模预训练后迁移到视觉任务。 | [PDF](./ViT_2010.11929_zh_CN.pdf) | [2010.11929](https://arxiv.org/abs/2010.11929) |
